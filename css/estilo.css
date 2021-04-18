@@ -1,0 +1,144 @@
+.cabecalho {
+    width: 100%;
+    float: left;
+    background-color: SpringGreen;
+}
+
+.logo a {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: url(../img/Agenda.png) no-repeat;
+    background-size: 90px;
+    font-size: 0;
+}
+
+.menu {
+    padding-top: 5%;
+    padding-right: 1%;
+    float: right;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight:bold;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.titulo {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: url(../img/agendafundo2.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    height: 30px;
+}
+
+li a {
+    padding: 10px 30px 30px;
+    line-height: 30px;
+}
+
+li a:hover {
+    background-color: CornflowerBlue;
+}
+
+#centra {
+    width: auto;
+    height: 150px;
+    left: 33%;
+    top: 25%;
+    padding: 10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: solid black 2px;
+    background-color: aliceblue;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.table {
+    background-image: url(../img/fundo3.jpg);
+    background-position-y: -55px;
+    background-position-x: -10px;
+    margin-left: 27%;
+    width: 560px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px rgba(44, 41, 41, 0.801);
+    border-bottom: 0px;
+    border-radius: 0 20px 0 20px;
+    border-collapse: collapse;
+    border-style: double;
+    background-size: 680px;
+    position: relative;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 45%;
+}
+
+#endereco {
+    position: absolute;
+}
+
+.editar {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.editar a {
+    text-decoration: none;
+}
+
+.apagar {
+    text-align: center;
+    width: 560px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    border-bottom: solid 5px rgba(44, 41, 41, 0.801);
+    border-collapse: collapse;
+    border-bottom-style: double;
+    margin: 10px;
+    margin-left: 0%;
+    border-radius: 0 0 0 18px;
+}
+
+.apagar a {
+    text-decoration: none;
+}
+
+.paginas {
+    text-align: center;
+    margin-right: 50px;
+}
