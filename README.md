@@ -48,7 +48,7 @@ em baixo de cada contato, o usuário sera redirecionado a pagina onde poderão s
 
 A opção apagar funciona de para excluir todos os dados do banco de dados para o contato onde foi selecionado, e remove-lo da lista de contatos.
 
-###Páginas
+### Páginas
 
 Conforme o usuário for adicionando vários contatos, estes ficarão divididos por páginas. Ficarão visiveis no máximo 4 por página, podendo então, 
 mudar de páginas selecionando seu número, ou pulando para a última ou primeira página. As páginas estão visivais abaixo da lista de contatos.
